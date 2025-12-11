@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пример по методологии БЭМ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item"><a href="#" class="menu__link menu__link--active">Меню_1</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Меню_2</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Меню_3</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+
+    <section class="gallery">
+      <div class="gallery__item gallery__item--up" >Рисунок</div>
+      <div class="gallery__item">Рисунок</div>
+      <div class="gallery__item gallery__item--up">Рисунок</div>
+    </section>
+
+    <section class="articles">
+      <article class="article">
+        <h2 class="article__title">Заголовок</h2>
+        <div class="article__image">Рисунок</div>
+        <p class="article__text">Текст статьи...</p>
+      </article>
+
+      <article class="article">
+        <h2 class="article__title">Заголовок</h2>
+        <p class="article__text">Текст статьи...</p>
+      </article>
+
+      <article class="article">
+        <div class="article__image">Рисунок</div>
+        <h2 class="article__title">Заголовок</h2>
+        <p class="article__text">Текст статьи...</p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__text">© Контакты</div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+- var n = 8
+
+style.
+  table { border-collapse: collapse; }
+  td { width: 40px; height: 40px; border: 1px solid #777; }
+  .white { background: #ffffff; }
+  .black { background: #000000; }
+
+table
+  - for (var r = 0; r < n; r++)
+    tr
+      - for (var c = 0; c < n; c++)
+        - var cls = ((r + c) % 2 === 0) ? 'white' : 'black'
+        td(class=cls)

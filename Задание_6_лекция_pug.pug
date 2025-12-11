@@ -1,0 +1,7 @@
+mixin createList(type, items, tag)
+  - var listTag = (type === 'ul' || type === 'ol') ? type : 'ul'
+  #{listTag}
+    each item in items
+      li
+        #{tag}= item
++createList('ul', ['Python', 'Javascript', 'Java'], 'strong')
