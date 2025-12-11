@@ -1,0 +1,15 @@
+.block {
+  color: blue;
+}
+.block .menu {
+  color: navy;
+}
+.block .menu a {
+  color: red;
+}
+.block h1 {
+  color: green;
+}
+.block:hover {
+  color: white;
+}
